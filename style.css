@@ -1,0 +1,92 @@
+.padding{
+    
+    margin-top: 25px;
+    padding: 10px 10px 10px 10px;
+
+
+}
+
+#navbar{
+    background-color: white;
+    margin-bottom: 40px;
+}
+
+.headings{
+    font-family: 'Poppins';
+    font-weight: bolder;
+}
+
+.paragraphs{
+    font-size: 15px;
+
+}
+
+
+
+#button1{
+    border: 1px solid hsl(321, 100%, 78%);
+    color: hsl(321, 100%, 78%);
+}
+
+.col-md-8{
+    text-align: center;
+}
+
+.button2{
+    border: 1px solid hsl(322, 100%, 66%);
+    background-color: hsl(322, 100%, 66%);
+    font-weight: bold;
+    
+}
+
+
+.image1{
+    height: 90%;
+    width: 90%;
+}
+
+.image2{
+    height: 90%;
+    width:90%;
+}
+
+@media only screen and (max-width:768px){
+    .one{
+        order:2;
+        
+    }
+
+    .two{
+        order:1;
+        
+    }
+}
+
+
+#image3{
+    width:100%;
+}
+
+#footer{
+    background-color:hsl(192, 100%, 9%); 
+    width:100; 
+    color: hsl(210, 10%, 33%);
+    border: 1px solid hsl(192, 100%, 9%);
+    color: white;
+    
+}
+
+@media only screen and (max-width:768px){
+    .first{
+        order:2;
+        
+    }
+
+    .second{
+        order:1;
+        margin-bottom: 70px;
+    }
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
